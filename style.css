@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background: #F0F0F0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  background: white;
+  border-radius: 9px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:30px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 85px;
+}
+
+hr {
+  opacity: 0.2;
+  margin: 15px 0;
+}
+
+p {
+  color: var(--primary-text-color);
+  opacity: 0.6;
+  text-align: center;
+}
+
+.central-header-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hero-logo-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #EA563D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo {
+  width: 38px;
+}
+
+.hero-title {
+  font-weight: normal;
+  color: #464646;
+  margin-left: 15px;
+}
+
+/* Hide some of the default B2C Elements */
+
+.intro {
+  display: none;
+}
+
+.divider h2 {
+  display: none;
+}
+
+#forgotPassword {
+  display: none;
+}
+
+/* B2C stuff */
+
+#api {
+  width: 100%;
+}
+
+input, button, #createAccount {
+  background: transparent;
+  border: 1px solid #C3C3C3;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  background-color: #F0F0F0;
+  border-radius: 6px;
+  padding: 11px 21px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  font-size: 15px;
+  outline: none;
+  letter-spacing: -0.5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#next {
+  margin-bottom: 20px;
+}
+
+#next, #createAccount {
+  background-color: #EA563D;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#createAccount {
+  display: block;
+  text-decoration: none;
+  background-color: #EA563D;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 19px;
+}
+
+label {
+  display: block;
+  padding-left: 10px;
+}
+
+.welcome {
+  width: 100%;
+  text-align: left;
+}
+
+.entry {
+  width: 100%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.divider {
+  border-bottom: #E2E2E2 1px solid;
+}
+.create {
+  width: 100% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
+}
